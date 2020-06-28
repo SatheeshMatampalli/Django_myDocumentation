@@ -60,7 +60,7 @@
 * **View  :**
   * The View is used to execute the business logic and interact with a model to carry data and renders a template.
 
-<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/mvc.PNG' alt='mvt' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/mvt.png' alt='mvt' />
   
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
@@ -87,7 +87,7 @@
        >>>import django
        >>>django.get_version()    or    django.VERSION
           '1.11'                   (1,11,0, 'final',1)
-<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/dversion.PNG' alt='pip' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/dversion.PNG' alt='dvers' />
 	  
 	  
 ## **Project Creation**
