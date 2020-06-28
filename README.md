@@ -60,7 +60,7 @@
 * **View  :**
   * The View is used to execute the business logic and interact with a model to carry data and renders a template.
 
-<img src='mvt.png' alt='mvt' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/mvc.PNG' alt='mvt' />
   
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
