@@ -48,7 +48,7 @@
   * etc..
 * Django is a MVT pattern.
 * MVC is slightly different from MVT as Django itself takes care of the Controller part.
-<img src='mvt-mvc.PNG' alt='mvc' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/mvt-mvc.PNG' alt='mvc' />
 
 
 * MVT is a software Design patern
@@ -71,13 +71,13 @@
   * **Download sublimetext or any other editor tools for editing purpose.**.[Download Link](https://www.sublimetext.com/3)
   * ceck wheather 'pip' is working or not in the 'cmd'
   
-  <img src='pip.PNG' alt='pip' />
+  <img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/pip.PNG' alt='pip' />
   
   * install django # # (latest Version 3.0) wait for installation
   * if you want perticular version then try `pip install Django==3.0.1"` or 
   * By Default version try `pip install django`
   
-  <img src='django.PNG' alt='django' />
+  <img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/django.PNG' alt='django' />
   
   * After installing to check the version of Django Framework.
     ```
@@ -87,7 +87,7 @@
        >>>import django
        >>>django.get_version()    or    django.VERSION
           '1.11'                   (1,11,0, 'final',1)
-<img src='dversion.PNG' alt='pip' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/dversion.PNG' alt='pip' />
 	  
 	  
 ## **Project Creation**
@@ -99,9 +99,9 @@
 	    D:\Satheesh\MyPractice\College
 	    
 	    
-<img src='project.PNG' alt='project' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/project.PNG' alt='project' />
 	    
-<img src='folder1.PNG' alt='folder1' />	    
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/folder1.PNG' alt='folder1' />	    
 	    
 * Present we are in our Django Project(College) path.
 * Check in browser wheather its working or not
@@ -111,7 +111,7 @@
 	    it is localhost address --> http://127.0.0.1:8000/
 	    it worked..!
 	    
-<img src='view.PNG' alt='view' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/view.PNG' alt='view' />
   
 ## **App Creation in Project**
 * Create a new App in Project
@@ -120,8 +120,8 @@
 	D:\Satheesh\MyPractice\College>python manage.py runserver
 	localhost:8000/
 	it is localhost address --> http://127.0.0.1:8000/
-<img src='app.PNG' alt='app' />	
-<img src='folder11.PNG' alt='folder11' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/app.PNG' alt='app' />	
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/folder11.PNG' alt='folder11' />
 		
 ## **urls.py :**
 * we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
@@ -169,7 +169,7 @@
 * check in browser. localhost:8000/Students/index
 
 
-	<img src='output.PNG' width="50%" height="30%" alt='output' />
+	<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/output.PNG' width="50%" height="30%" alt='output' />
 
 * In anothe rway to represent url is without creating urls.py file in app Students add path in project urls.py file and import the Students app views in project urls.py file follow like this...
 	```
@@ -184,7 +184,7 @@
 
 * check in browser. localhost:8000/index
 
-<img src='output.PNG' width="50%" height="30%" alt='output' />
+<img src='https://github.com/SatheeshMatampalli/Django_myDocumentation/blob/master/output.PNG' width="50%" height="30%" alt='output' />
 
 
 * **You will get Hello World message**
