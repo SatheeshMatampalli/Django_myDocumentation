@@ -1,4 +1,4 @@
-# Django_myDocumentation   ......>Developed By Annonamouse
+# Django_myDocumentation   
 
 
 * **Python web Frameworks :**
